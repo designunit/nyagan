@@ -1,0 +1,17 @@
+{
+    "name": "pitkaranta",
+    "version": "1.0.0",
+    "private": true,
+    "description": "pitkaranta.unit4.io site",
+    "scripts": {
+        "build": "rm -rf public && cp -r readymag public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/designunit/pitkaranta.git"
+    },
+    "bugs": {
+        "url": "https://github.com/designunit/pitkaranta/issues"
+    },
+    "homepage": "https://github.com/designunit/pitkaranta#readme"
+}
