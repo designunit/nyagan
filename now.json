@@ -1,8 +1,5 @@
 {
     "version": 2,
-    "alias": [
-        "nyagan.unit4.io"
-    ],
     "routes": [
         {
             "src": "^/(1|2|3|4|5|about|map|is|team)/?",
