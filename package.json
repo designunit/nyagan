@@ -4,7 +4,8 @@
     "private": true,
     "description": "pitkaranta.unit4.io site",
     "scripts": {
-        "build": "rm -rf public && cp -r readymag public"
+        "build": "rm -rf public && cp -r readymag public && npm run fav",
+		"fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
     },
     "repository": {
         "type": "git",
@@ -13,5 +14,8 @@
     "bugs": {
         "url": "https://github.com/designunit/pitkaranta/issues"
     },
-    "homepage": "https://github.com/designunit/pitkaranta#readme"
+    "homepage": "https://github.com/designunit/pitkaranta#readme",
+    "devDependencies": {
+        "png-to-ico": "^2.1.0"
+    }
 }
