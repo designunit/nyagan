@@ -18,6 +18,8 @@ setup(async () => {
 })
 
 on('install', async event => {
+	lockLayer('5eac5f168f0e1b6813fd64c0')
+
 	overlay([
         ['@', 'top-left', [
             ['button', { icon: 'arrow-left', href: PERMALINK }],
