@@ -40,7 +40,7 @@ on('idle', async event => {
         ['AddIdea', {
         	label: 'Поделиться мнением',
         	icon: 'bulb',
-            color: '#008BFF',
+            color: '#1d7575',
         }],
     ], {
     	foldedLabel: 'Поделиться мнением',
