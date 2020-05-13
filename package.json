@@ -1,20 +1,20 @@
 {
-    "name": "pitkaranta",
+    "name": "nyagan",
     "version": "1.0.0",
     "private": true,
-    "description": "pitkaranta.unit4.io site",
+    "description": "nyagan.unit4.io site",
     "scripts": {
         "build": "rm -rf public && cp -r readymag public && npm run fav",
-		"fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
+        "fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/designunit/pitkaranta.git"
+        "url": "git+https://github.com/designunit/nyagan.git"
     },
     "bugs": {
-        "url": "https://github.com/designunit/pitkaranta/issues"
+        "url": "https://github.com/designunit/nyagan/issues"
     },
-    "homepage": "https://github.com/designunit/pitkaranta#readme",
+    "homepage": "https://github.com/designunit/nyagan#readme",
     "devDependencies": {
         "png-to-ico": "^2.1.0"
     }
