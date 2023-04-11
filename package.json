@@ -16,6 +16,6 @@
     },
     "homepage": "https://github.com/designunit/nyagan#readme",
     "devDependencies": {
-        "png-to-ico": "^2.1.0"
+        "png-to-ico": "^2.1.8"
     }
 }
