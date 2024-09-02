@@ -5,6 +5,8 @@
     "description": "nyagan.unit4.io site",
     "scripts": {
         "build": "rm -rf public && cp -r readymag public && npm run fav",
+        "build-timeweb": "npm run build && npm run timeweb-hack",
+        "timeweb-hack": "echo 'duplicating index.html to support SPA' && mkdir public/about public/intent && cp public/index.html public/about/index.html && cp public/index.html public/intent/index.html",
         "fav": "png-to-ico favicon.png > public/dist/img/favicons/favicon.ico"
     },
     "repository": {
